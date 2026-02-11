@@ -1,3 +1,6 @@
-ddd;dddddddd;Novella;on;1_mouth
-frfrfr;rfrfrfr;Novella;on;1_mouth
-ede;edede;Novella;on;1_mouth
+d;-12;Novella;on;6_mouth
+d;-12;Novella;on;6_mouth
+d;d;Fantasy;;1_mouth
+d;d;Fantasy;;1_mouth
+Fargetik;12;Novella;;6_mouth
+Fargetik;12;Novella;on;6_mouth
