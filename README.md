@@ -34,7 +34,7 @@ docker-compose up -d --build
 4. Открытие формы:
 ```http://localhost:8080/form.html```
 
-5. Просмотри содержимого файла data.txt:
+5. Просмотр содержимого файла data.txt:
 ```http://localhost:8080/view.php```
 
 ---
