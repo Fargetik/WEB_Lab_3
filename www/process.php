@@ -14,6 +14,11 @@ $_SESSION['genre'] = $genre;
 $_SESSION['subscribe'] = $subscribe;
 $_SESSION['time'] = $time;
 
+
+$line = $username . ";" . $number_of_ticket . ";" . $genre . ";" . $subscribe . ";" . $time . "\n";
+file_put_contents("data.txt", $line, FILE_APPEND);
+
+
 header("Location: index.php");
 exit();
 
