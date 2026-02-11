@@ -16,7 +16,7 @@
 
         input {
             margin: 5px 0;
-            width: 100%;
+            width: 80%;
         }
 
         select {
@@ -41,7 +41,7 @@
 
 </head>
 <body>
-    <form id="myForm">
+    <form id="myForm" action="process.php" и method="POST">
 
         <input type="text" name="username" placeholder="Введите имя">
         <input type="text" name="number_of_ticket" placeholder="номер билета">
@@ -70,16 +70,10 @@
     <div id = "result"></div>
 
     <script>
-        document.getElementById("myForm").addEventListener("submit", function(e) {
-            e.preventDefault();
-            const formData = new FormData(this)
-            let output = ""
-
-            for (const [name, value] of formData.entries()) {
-                output += `<p><b>${name}:</b> ${value} </p>`;
-            }
-            document.getElementById("result").innerHTML = output;
-        })
+        document.getElementById("myForm").addEventListener("submit", function(e){
+            const username = document.querySelector("[name='username']").value;
+            alert("Вы ввели имя: " + username);
+        });
     </script>
 
 </body>
