@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 
-
     <style>
         form {
             width: 500px;
@@ -92,13 +91,13 @@
                     <input type="radio" name="time" value="1_mouth"> 1 месяц
                 </label>
                 <label>
-                    <input type="radio" name="time" value="1_mouth"> 2 месяца
+                    <input type="radio" name="time" value="2_mouth"> 2 месяца
                 </label>
                 <label>
-                    <input type="radio" name="time" value="1_mouth"> 6 месяцев
+                    <input type="radio" name="time" value="6_mouth"> 6 месяцев
                 </label>
                 <label>
-                    <input type="radio" name="time" value="1_mouth"> 12 месяцев
+                    <input type="radio" name="time" value="12_mouth"> 12 месяцев
                 </label>
             <br>
         </div>
@@ -111,7 +110,7 @@
     <script>
         document.getElementById("myForm").addEventListener("submit", function(e){
             const username = document.querySelector("[name='username']").value;
-            alert("Вы ввели имя: " + username);
+            alert("Спасибо, что заполнили форму, " + username);
         });
     </script>
 
