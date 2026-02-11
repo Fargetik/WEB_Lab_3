@@ -5,7 +5,7 @@ session_start();
 $username = htmlspecialchars($_POST['username'] ?? NULL);
 $number_of_ticket = htmlspecialchars($_POST['number_of_ticket'] ?? -1);
 $genre = htmlspecialchars($_POST['genre'] ?? '');
-$subscribe = htmlspecialchars($_POST['subscribe']);
+$subscribe = htmlspecialchars($_POST['subscribe'] ?? FALSE);
 $time = htmlspecialchars($_POST['time'] ?? '');
 
 # добавление ошибок
