@@ -1,2 +1,6 @@
-Fargetik;12;Fantasy;on;2_mouth
-asd;sad;Novella;on;6_mouth
+d;-12;Novella;on;6_mouth
+d;-12;Novella;on;6_mouth
+d;d;Fantasy;;1_mouth
+d;d;Fantasy;;1_mouth
+Fargetik;12;Novella;;6_mouth
+Fargetik;12;Novella;on;6_mouth
